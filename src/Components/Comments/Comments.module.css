@@ -1,0 +1,155 @@
+.comment {
+  display: flex;
+  position: absolute;
+  width: 531px;
+  height: 18.75px;
+  top: 45%;
+  left: 3%;
+}
+
+.lastComment {
+  position: absolute;
+}
+
+.lastComment p {
+  font-size: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.allComment {
+  position: absolute;
+  left: 32%;
+}
+
+.allComment a {
+  font-size: 14px;
+}
+
+.likesValue {
+  position: absolute;
+  left: 78%;
+}
+
+.heartValue {
+  position: absolute;
+  top: 10%;
+  left: 82%;
+}
+
+.heartValue p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.imgHeart {
+  width: 16px;
+  height: 14px;
+}
+
+.chatValue {
+  position: absolute;
+  left: 89%;
+}
+
+.chatTotal {
+  position: absolute;
+  top: 10%;
+  left: 93%;
+}
+
+.chatTotal p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.imgChat {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 720px) {
+  .comment {
+    width: 531px;
+    height: 18.75px;
+    top: 43%;
+    left: 3%;
+  }
+
+  .lastComment p {
+    font-size: 18px;
+  }
+
+  .allComment {
+    left: 35%;
+  }
+
+  .allComment a {
+    font-size: 16px;
+  }
+
+  .heartValue p {
+    font-size: 14px;
+  }
+
+  .imgHeart {
+    width: 18px;
+    height: 16px;
+  }
+
+  .chatTotal p {
+    font-size: 14px;
+  }
+
+  .imgChat {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .comment {
+    top: 44%;
+  }
+
+  .allComment {
+    top: 120%;
+    left: 0%;
+  }
+
+  .likesValue {
+    left: 38%;
+  }
+
+  .heartValue {
+    top: 10%;
+    left: 48%;
+  }
+
+  .chatValue {
+    left: 52%;
+  }
+
+  .chatTotal {
+    left: 62%;
+  }
+
+  .imgHeart {
+    width: 20px;
+    height: 20px;
+  }
+  .heartValue p {
+    font-size: 16px;
+  }
+
+  .chatTotal p {
+    font-size: 16px;
+  }
+
+  .imgChat {
+    width: 20px;
+    height: 20px;
+  }
+}

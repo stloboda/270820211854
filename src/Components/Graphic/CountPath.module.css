@@ -1,0 +1,373 @@
+.count {
+  position: absolute;
+  top: 17%;
+  left: 92%;
+}
+
+.count p {
+  font-size: 13px;
+}
+
+.lineCounter {
+  position: absolute;
+  width: 325px;
+  height: 0px;
+  left: 40%;
+  top: 21%;
+  border: 1px solid #dadada;
+  transform: rotate(180deg);
+}
+
+.graphicCounter {
+  position: absolute;
+  width: 318px;
+  height: 107px;
+  left: 33%;
+  top: 22%;
+}
+
+.verticalLine {
+  position: absolute;
+  width: 73px;
+  height: 0px;
+  left: 0%;
+  top: 47%;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  transform: rotate(90deg);
+}
+
+.graphicCounterFirst {
+  position: absolute;
+  width: 219px;
+  height: 24px;
+  top: 20%;
+  left: 39px;
+  background: #b1e19b;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.graphicCounterSecond {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 44%;
+  left: 39px;
+  background: #ace2f8;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.graphicCounterThird {
+  position: absolute;
+  width: 36px;
+  height: 24px;
+  top: 68%;
+  left: 39px;
+  background: #ace2f8;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.FirstText {
+  position: absolute;
+  margin: 0;
+  left: 5%;
+  top: 20%;
+  font-size: 13px;
+  color: #333333;
+}
+.SecondText {
+  position: absolute;
+  margin: 0;
+  width: 100px;
+  left: 20%;
+  top: 20%;
+  font-size: 13px;
+  color: #333333;
+}
+
+.ThirdText {
+  position: absolute;
+  margin: 0;
+  width: 100px;
+  left: 28%;
+  top: 20%;
+  font-size: 13px;
+  color: #333333;
+}
+
+.values {
+  display: flex;
+  position: absolute;
+  width: 41px;
+  height: 66px;
+  left: 82%;
+  top: 4%;
+}
+
+.values li {
+  list-style: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.valueFirstItem {
+  position: absolute;
+  top: 10%;
+}
+
+.valueSecondItem {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+}
+
+.valueThirdItem {
+  position: absolute;
+  top: 90%;
+  left: 55%;
+}
+
+.lineCounterEnd {
+  position: absolute;
+  width: 325px;
+  height: 0px;
+  left: 40%;
+  top: 34%;
+  border: 1px solid #dadada;
+  transform: rotate(180deg);
+}
+
+.totalItems {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.totalValue {
+  position: absolute;
+  top: 35%;
+  left: 94%;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+  .count {
+    top: 18%;
+  }
+
+  .lineCounter {
+    width: 325px;
+    left: 40%;
+    top: 21%;
+  }
+
+  .graphicCounter {
+    width: 318px;
+    height: 107px;
+    left: 33%;
+    top: 16%;
+  }
+
+  .verticalLine {
+    display: none;
+  }
+
+  .graphicCounterFirst {
+    width: 219px;
+    height: 34px;
+    top: 82%;
+    left: 39px;
+  }
+
+  .graphicCounterSecond {
+    width: 54px;
+    height: 34px;
+    top: 116%;
+    left: 39px;
+  }
+
+  .graphicCounterThird {
+    width: 36px;
+    height: 34px;
+    top: 150%;
+    left: 39px;
+  }
+
+  .FirstText {
+    font-size: 16px;
+  }
+  .SecondText {
+    width: 120px;
+    font-size: 16px;
+  }
+
+  .ThirdText {
+    font-size: 16px;
+  }
+
+  .values {
+    display: flex;
+    position: absolute;
+    width: 41px;
+    height: 86px;
+    left: 82%;
+    top: 86%;
+    margin: 0;
+  }
+
+  .values li {
+    font-size: 16px;
+  }
+
+  .valueFirstItem {
+    top: 5%;
+  }
+
+  .valueSecondItem {
+    top: 50%;
+    left: 55%;
+  }
+
+  .valueThirdItem {
+    top: 90%;
+    left: 55%;
+  }
+
+  .lineCounterEnd {
+    width: 325px;
+    height: 0px;
+    left: 40%;
+    top: 35%;
+  }
+
+  .totalItems {
+    top: 35%;
+    left: 40%;
+  }
+
+  .totalValue {
+    position: absolute;
+    top: 35%;
+    left: 94%;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .count {
+    top: 21%;
+    left: 72%;
+  }
+
+  .count p {
+    font-size: 18px;
+  }
+
+  .lineCounter {
+    width: 335px;
+    left: 13%;
+    top: 23%;
+  }
+
+  .graphicCounter {
+    width: 318px;
+    height: 107px;
+    left: 13%;
+    top: 20%;
+  }
+
+  .verticalLine {
+    display: none;
+  }
+
+  .graphicCounterFirst {
+    width: 219px;
+    height: 44px;
+    top: 84%;
+    left: 39px;
+  }
+
+  .graphicCounterSecond {
+    width: 54px;
+    height: 44px;
+    top: 126%;
+    left: 39px;
+  }
+
+  .graphicCounterThird {
+    width: 36px;
+    height: 44px;
+    top: 169%;
+    left: 39px;
+  }
+
+  .FirstText {
+    font-size: 18px;
+  }
+  .SecondText {
+    width: 150px;
+    font-size: 18px;
+  }
+
+  .ThirdText {
+    font-size: 18px;
+  }
+
+  .values {
+    display: flex;
+    position: absolute;
+    width: 41px;
+    height: 110px;
+    left: 82%;
+    top: 90%;
+    margin: 0;
+  }
+
+  .values li {
+    font-size: 18px;
+  }
+
+  .valueFirstItem {
+    top: 5%;
+  }
+
+  .valueSecondItem {
+    top: 50%;
+    left: 55%;
+  }
+
+  .valueThirdItem {
+    top: 90%;
+    left: 55%;
+  }
+
+  .lineCounterEnd {
+    width: 335px;
+    height: 0px;
+    left: 13%;
+    top: 36%;
+  }
+
+  .totalItems {
+    top: 36%;
+    left: 13%;
+  }
+
+  .totalValue {
+    position: absolute;
+    top: 36%;
+    left: 73%;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

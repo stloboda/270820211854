@@ -1,0 +1,117 @@
+.sendArea {
+  position: absolute;
+  width: 499px;
+  height: 191px;
+  left: 0;
+  top: 92%;
+}
+
+.placeText {
+  position: absolute;
+  width: 510px;
+  height: 63px;
+  left: 0;
+  top: 40%;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 1px;
+}
+
+.btnSend {
+  position: absolute;
+  width: 281px;
+  height: 43px;
+  left: 23%;
+  top: 90%;
+  font-family: PT Sans;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background: #fdd639;
+  border-radius: 23px;
+}
+
+.comItems {
+  position: absolute;
+  left: 0;
+  padding: 0;
+}
+
+.comItem {
+  width: 510px;
+  padding: 20px;
+  margin-top: 15px;
+  height: 76px;
+  list-style: none;
+  background: #f2fbff;
+  border: 1px solid #c4cbcf;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+}
+
+@media screen and (max-width: 720px) {
+  .sendArea {
+    width: 499px;
+    height: 170px;
+    left: 0;
+    top: 100%;
+  }
+
+  .placeText {
+    position: absolute;
+    width: 525px;
+    height: 73px;
+    left: 0;
+    top: 35%;
+  }
+
+  .btnSend {
+    width: 291px;
+    height: 49px;
+    left: 23%;
+    top: 100%;
+    font-size: 18px;
+  }
+
+  .comItems {
+    left: 0;
+    padding: 0;
+  }
+
+  .comItem {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .sendArea {
+    width: 499px;
+    height: 170px;
+    left: 0;
+    top: 100%;
+  }
+
+  .comItem {
+    width: 430px;
+    padding: 20px;
+    margin-top: 15px;
+    height: 76px;
+  }
+
+  .placeText {
+    position: absolute;
+    width: 430px;
+    height: 73px;
+    left: 0;
+    top: 35%;
+  }
+
+  .btnSend {
+    width: 291px;
+    height: 49px;
+    left: 15%;
+    top: 100%;
+    font-size: 20px;
+  }
+}

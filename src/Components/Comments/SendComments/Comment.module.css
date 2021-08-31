@@ -1,0 +1,16 @@
+.areaComment {
+  position: absolute;
+  width: 531px;
+  height: 341px;
+  left: 3%;
+  top: 50%;
+}
+
+@media screen and (max-width: 720px) {
+  .areaComment {
+    width: 430px;
+    height: 571px;
+    left: 3%;
+    top: 50%;
+  }
+}

@@ -1,0 +1,19 @@
+.App {
+  font-family: Arial;
+  position: relative;
+  width: 489px;
+  height: 900px;
+  margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .App {
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .App {
+    height: 1600px;
+  }
+}
